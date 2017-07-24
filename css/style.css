@@ -1,0 +1,203 @@
+#set-height {
+    display: block;
+}
+
+#v0 {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 177.77777778vh;
+    min-width: 100%;
+    min-height: 56.25vw;
+    background-position: center;
+}
+
+span{
+    font-size: 35px;
+    position: fixed;
+    width: 35%;
+    transform: translateX(-50%);
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes slideInLeft {
+    0% {
+        -webkit-transform: translateX(-200%);
+        transform: translateX(-200%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes slideInLeft {
+    0% {
+        -webkit-transform: translateX(-200%);
+        transform: translateX(-200%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.bounceInUp {
+    -webkit-animation-name: bounceInUp;
+    animation-name: bounceInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes bounceInUp {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0);
+    }
+    75% {
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(0, -5px, 0);
+        transform: translate3d(0, -5px, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes bounceInUp {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0);
+    }
+    75% {
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(0, -5px, 0);
+        transform: translate3d(0, -5px, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+#logoApple{
+    width: 550px;
+    height: 300px;
+}
+
+.logoPosApple{
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 30%;
+}
+
+#logoMacBookPro{
+    width: 450px;
+    height: 50px;
+}
+
+.logoPosMacPro{
+    position: fixed;
+    left: 5%;
+    top: 25%;
+}
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    min-width: 100%;
+    z-index: 9999999;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.footer {
+    position: fixed !important;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 40px;
+    z-index: 9999999;
+    border: 1px solid transparent;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    border-radius: 4px;
+}
+
+.contentFooter{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    float: left;
+    margin: 0;
+}
+
+.contentFooter >li{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contentFooter >li>a{
+    font-size: 11px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #777;
+    text-align: center;
+}
+
+.navbar-nav {
+    min-width: 100%;
+}
+
+.navbar-nav>li {
+    min-width: 25%;
+}
+
+.navbar-nav>li>a {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

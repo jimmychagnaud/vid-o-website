@@ -1,0 +1,76 @@
+{
+    "ArrayList": [
+        {
+            "timeAp": 8,
+            "timeDis": 16,
+            "id": 0,
+            "leTexte": "MacBook La légèreté. En avance sur son temps.",
+            "top": 50,
+            "left": 60,
+            "anim": "slideInLeft",
+            "class": null,
+            "idImg": null,
+            "src": null
+        },
+        {
+            "timeAp": 24,
+            "timeDis": 29,
+            "id": 1,
+            "leTexte": "Un clavier majuscule, dans un espace minuscule.",
+            "top": 30,
+            "left": 50,
+            "anim": "bounceInUp",
+            "class": null,
+            "idImg": null,
+            "src": null
+        },
+        {
+            "timeAp": 66.5,
+            "timeDis": 71,
+            "id": 2,
+            "leTexte": "Un écran Retina qui repousse ses limites. Et les vôtres.",
+            "top": 50,
+            "left": 5,
+            "anim": "bounceInUp",
+            "class": null,
+            "idImg": null,
+            "src": null
+        },
+        {
+            "timeAp": 93,
+            "timeDis": 103,
+            "id": 3,
+            "leTexte": "Force Touch. Le trackpad revient, avec de nouveaux pouvoirs.",
+            "top": 40,
+            "left": 50,
+            "anim": "slideInLeft",
+            "class": null,
+            "idImg": null,
+            "src": null
+        },
+        {
+            "timeAp": 166,
+            "timeDis": 171,
+            "id": 4,
+            "leTexte": "Plaidoyer pour un monde sans fil.",
+            "top": 80,
+            "left": 50,
+            "anim": "bounceInUp",
+            "class": null,
+            "idImg": null,
+            "src": null
+        },
+        {
+            "timeAp": 213,
+            "timeDis": 220,
+            "id": 5,
+            "leTexte": "Port USB-C. Une multitude de fonctions qui le rendent unique.",
+            "top": 80,
+            "left": 50,
+            "anim": "slideInLeft",
+            "class": null,
+            "idImg": null,
+            "src": null
+        }
+    ]
+}
